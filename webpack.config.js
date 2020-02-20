@@ -33,12 +33,13 @@ Encore
     })
 ;
 
-if (Encore.isProduction()) {
-    Encore.setPublicPath('https://assets.gmsantos.dev');
-    // guarantee that the keys in manifest.json are *still*
-    // prefixed with build/
-    // (e.g. "build/dashboard.js": "https://assets.gmsantos.dev/dashboard.js")
-    Encore.setManifestKeyPrefix('build/');
-}
+//if (Encore.isProduction()) {
+//    Encore.setPublicPath('https://assets.gmsantos.dev');
+//    // guarantee that the keys in manifest.json are *still*
+//    // prefixed with build/
+//    // (e.g. "build/dashboard.js": "https://assets.gmsantos.dev/dashboard.js")
+//    Encore.setManifestKeyPrefix('build/');
+//}
 
 module.exports = Encore.getWebpackConfig();
+
